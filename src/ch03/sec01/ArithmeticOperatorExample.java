@@ -10,6 +10,6 @@ public class ArithmeticOperatorExample {
         System.out.println("result1: " + result1); // result1: 14
         System.out.println("result2: " + ( v1 + v2 - v4)); // result2: 4 // 10+4-10
 
-        System.out.println("result3: " + ((float) v1 / v2) );
+        System.out.println("result3: " + ((float) v1 / v2) ); //
     }
 }
