@@ -26,8 +26,8 @@ public class ArrayShuffleExample {
             int temp = arr[i];
             arr[i] = arr[num];
             arr[num] = temp;
-        System.out.println(num + " " + i + Arrays.toString(arr));
         }
+        System.out.println(Arrays.toString(arr));
 
 
 
