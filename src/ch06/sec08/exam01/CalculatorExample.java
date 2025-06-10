@@ -1,4 +1,4 @@
-package ch06.sec08;
+package ch06.sec08.exam01;
 // p.232~
 public class CalculatorExample {
     // 여기(클래스 직속) 변수 선언된거면 그게 멤버필드(전역변수)임
@@ -12,6 +12,10 @@ public class CalculatorExample {
         System.out.println("result: "+ result);
         System.out.println("result1: "+ cal.plus(10, 20));
         System.out.println("result: "+ 30);
+
+        for(int i=0; i<2000; i++) {
+            cal.powerON();
+        }
 
         cal.powerON();
         cal.powerOff();
