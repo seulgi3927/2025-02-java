@@ -17,7 +17,7 @@ public class SamsungTv {
         System.out.printf("%s, %s, %d\n", brand, model, inch);
                 // 호출되지 model 이랑 inch 가 올라가려면 객체생성 해줘야한다.
     }
-    // static 메소드는 static 멤버필드, 파라미터만 사용ㅎㅏ는 경우에만
+    // static 메소드는 static 멤버필드, 파라미터만 사용하는 경우에만
     public static void staticMethod(int n1, int n2) {
         System.out.printf("%s, %s, %d\n", brand, n1, n2);
     }
