@@ -2,7 +2,7 @@ package ch07.sec07.exm02;
 
 public class ChildExample {
     public static void main(String[] args) {
-        Child child = new Child();
+        Child child = new Child(); // 차일드 주소값의 담을 수 있다 + (차일드의 주소값을 상속받은) 자식(객체)의 주소값을 받을 수 있다.
         child.method1();
         child.method2();
         child.method3();
