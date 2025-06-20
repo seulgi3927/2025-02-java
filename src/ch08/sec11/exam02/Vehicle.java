@@ -5,9 +5,9 @@ package ch08.sec11.exam02;
     static final 멤버필드는 가질 수 있다.
 
     무조건 추상 메소드만 가질 수 있다.
-    public abstract 생략 가능, 생략하면 자동으로 붙은다.
+    public abstract 생략 가능, 생략하면 자동으로 붙는다.
 
-    상속은 extends가 아닌  implements 를 사용한다.
+    상속은 extends가 아닌 implements 를 사용한다.
     인터페이스가 인터페이스를 상속할땐 extends 를 사용한다.
     다중상속도 가능하다.
 
